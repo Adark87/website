@@ -1,0 +1,136 @@
+body {
+  columns: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+/* Top Container Start */
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+h1 {
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+  /* line-height: 2; */
+  margin: 50px auto 0 auto;
+  font-size: 5rem; /* 16px = 100% = 1em */
+}
+h2 {
+  color: #66bfbf;
+  margin: 0 auto 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  line-height: 2;
+}
+.top-container p {
+  color: #40514e;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #ceecec;
+  width: 5%;
+}
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+.underline {
+  text-decoration: underline;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.mountain {
+  width: 50%;
+}
+.top-cloud {
+  position: absolute;
+  right: 150px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 310px;
+}
+/* Top Container End */
+.profile-img {
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+}
+/* Middle Container */
+.middle-container {
+  margin: 100px 0 0;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.html {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.coding {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+/* .html-skill-description {
+  clear: left;
+}
+.coding-skill-description {
+  clear: right;
+} */
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #66bfbf;
+  background-image: linear-gradient(-50deg, #8abde7, #45d1d1);
+  border-radius: 5px;
+  letter-spacing: 1px;
+  color: #eff7f7;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 10px;
+  margin: 0 auto 15px auto;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 30px auto 60px;
+  transition: ease-out 0.3s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+/* Bottom Container */
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0 0;
+}
